@@ -83,6 +83,7 @@ public class Race {
 
         }
 
+        
         if (raceWonBy(lane1Horse)) {
             System.out.println("And the winner is: " + lane1Horse.getName());
         } else if (raceWonBy(lane2Horse)) {
